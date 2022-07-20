@@ -42,9 +42,14 @@ body {
 }
 
 img {
-  max-width: 800px;
-  height: auto;
-  margin-bottom: 50px;
+  max-width: 80%;
+  margin-bottom: 45px;
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 90%;
+  }
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
